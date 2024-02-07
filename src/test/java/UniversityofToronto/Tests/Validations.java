@@ -8,6 +8,12 @@ import UniversityofToronto.PageObjects.MyProductsPage;
 
 public class Validations extends BaseTest{
 	
+	@Test()
+	public void newChanges() {
+		System.out.println("Do you like my new changes?");
+		
+	}
+	
 	@Test(retryAnalyzer = Retry.class)
 	public void getLoginFailureMessage() {
 		
