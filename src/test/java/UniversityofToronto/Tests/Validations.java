@@ -8,11 +8,11 @@ import UniversityofToronto.PageObjects.MyProductsPage;
 
 public class Validations extends BaseTest{
 	
+	
+	
 	@Test()
-	public void newChanges() {
-		System.out.println("Do you like my new changes?");
-		System.out.println("Or not?!?!?!??!!??!?!");
-		
+	public void testBranch() {
+		System.out.println("TESTER!");
 	}
 	
 	@Test(retryAnalyzer = Retry.class)
