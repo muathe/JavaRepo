@@ -15,11 +15,21 @@ public class Validations extends BaseTest{
 		System.out.println("TESTER!");
 	}
 	
+	@Test()
+	public void testBranch2() {
+		System.out.println("TESTER2!");
+	}
+	
+	@Test()
+	public void testBranch3() {
+		System.out.println("TESTER3!");
+	}
+	
 	@Test(retryAnalyzer = Retry.class)
 	public void getLoginFailureMessage() {
 		
 		
-		
+		 
 				myLoginPage.login("moema@hotmail.com", "Password2");
 				String myMessage =  myLoginPage.getMessage();
 				Assert.assertEquals(myMessage, "Incorrect email or password.");
