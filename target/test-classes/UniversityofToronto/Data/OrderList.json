@@ -1,0 +1,17 @@
+[
+	{
+		"email": "moema@hotmail.com",
+		"password": "Password1",
+		"product": "ADIDAS ORIGINAL"
+	},
+	{
+		"email": "mike@hotmail.com",
+		"password": "Password2",
+		"product": "ZARA COAT 3"
+	},
+	{
+		"email": "jack@hotmail.com",
+		"password": "Password3",
+		"product": "IPHONE 13 PRO"
+	}
+]
